@@ -1,4 +1,4 @@
-# เตรียม Mac สำหรับ Web Programming
+# เตรียมความพร้อมเครื่อง Mac สำหรับวิชา Web Programming
 
 ---
 
@@ -6,9 +6,9 @@
 * Homebrew
 * NodeJS
 * MySQL database
-* Postman
 * VSCode
 * VSCode Live Server
+* Postman
 
 ---
 
@@ -109,3 +109,28 @@ mysql_secure_installation
 
 ถ้าใช้ในเครื่อง Production ที่ต้องการความปลอดภัยสูงแนะนำให้ตอบ y (yes) ทั้งหมด  
 แต่ตอนนี้เราใช้งานในระดับ Development แนะนำให้ตอบ n (no) ทั้งหมดเพื่อให้ใช้งานได้ง่ายครับ  
+
+
+### 4. ติดตั้ง Visual Studio Code (VSCode)
+VSCode เป็นโปรแกรม text editor ยอดนิยมในการเขียนโค๊ด สามารถดาวโหลดน์มาติดตั้งได้เหมือนโปรแกรมทั่วไป [download](https://code.visualstudio.com/)
+
+
+### 5. ติดตั้ง Live Server Extension สำหรับ VSCode
+Live Server เป็น ส่วนขยาย (Extension) สำหรับ VSCode  
+เจ้า Live Server ตัวนี้จะช่วย refresh หน้าเว็บของเราโดยอัตโนมัติเมื่อเราทำการ save ไฟล์
+
+วิธีการติดตั้ง Extension ใน VSCode
+1. เปิดโปรแกรม VSCode และเลือกที่เมนู Extension 
+2. ค้นหาคำว่า "Live Server"
+3. เลือก Live Server ของคุณ "Ritwick Dey" กดปุ่ม Install
+<details>
+    <img src="imgs/live-server-extension.png">
+</details>
+<br>
+
+4. รอจน Install เสร็จ จากนั้นปิดโปรแกรม VSCode และเปิดขึ้นมาใหม่
+
+
+### 6. Postman
+Postman เป็น REST API Client สามารถช่วยเราในการทดสอบ API ที่เราจะสร้างขึ้นมา  
+สามารถดาวโหลดน์มาติดตั้งได้เหมือนโปรแกรมทั่วไป [download](https://www.postman.com/downloads/)
